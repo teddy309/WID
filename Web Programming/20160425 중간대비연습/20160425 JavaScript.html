@@ -1,0 +1,99 @@
+<html>
+<head>
+	<title>JavaScript1</title>
+	<script type="text/javascript">
+	function addStrings(str1,str2)
+	{
+	var result=str1+str2;
+	return result;
+	}
+	function add(num1,num2)
+	{
+		var result=num1+num2;
+		return result;
+	}
+	</script>
+</head>
+<body>
+<script type="text/javascript">
+document.write("hello world!!<br>");
+document.write("<h2>this is h2</h2><br>");
+
+var firstName;
+firstName="John";
+var lastName,new1,new2;
+lastName=prompt("Enter your lastName:","James");
+alert("your last name is "+lastName);
+new2=prompt("enter new2:","5");
+document.write(typeof(lastName)+" "+typeof(new1)+" "+typeof(new2));
+
+var integerVar=300;
+var floatingPointVar=2.5e10;
+document.write(integerVar);
+document.write("<br>");
+document.write(floatingPointVar);
+
+var result=false;
+result=(42>3);
+alert("(42>3)="+result);
+
+document.write("<br>");
+Car=new Array();
+Car[0]="Hyundai";
+Car[1]="Nissan";
+Car[2]="Toyota";
+document.write(Car[0]+"<br>");
+document.write(Car[1]+"<br>");
+document.write(Car[2]+"<br>");
+
+var v=25,w=true,x="hello",y=null,z;
+document.write("Variable v is "+typeof(v)+"<br>");
+document.write("Variable w is "+typeof(w)+"<br>");
+document.write("Variable x is "+typeof(x)+"<br>");
+document.write("Variable y is "+typeof(y)+"<br>");
+document.write("Variable z is "+typeof(z)+"<br>");
+
+var test1,test2=null;
+document.write("<p>No value assigned to the variable: "+test1);
+document.write("<p>A null assigned to the variable: "+test2);
+
+var a,b="hello ",c="world";
+a=b+c;
+document.write("<br>"+a);
+
+x=confirm("Are you OK?");
+document.write("<br>"+x);
+
+var Value;
+Value=(19%4)/1-1-!false;
+document.write(Value);
+Value=3/1-1-!false;
+document.write(Value);
+Value=(19%4)/1-1-!false;
+document.write(Value);
+Value=(19%4)/1-1-!false;
+document.write(Value);
+Value=(19%4)/1-1-!false;
+document.write(Value);
+Value=1;
+document.write(Value+"<br>");
+
+document.write(typeof(8*2+5)+"<br>");
+document.write(typeof(13%3)+"<br>");
+document.write(typeof(5+5)+"<br>");
+document.write(typeof("5"+"5")+"<br>");
+document.write(typeof(5+"5")+"<br>");
+document.write(typeof("5"*5)+"<br>");
+
+
+var str1="hello",str2="world!";
+var num1=5,num2=3;
+var result1=addStrings(str1,str2);
+var result2=addStrings(num1,num2);
+document.write(result1," ",result2);
+
+
+
+</script>
+</body>
+</html>

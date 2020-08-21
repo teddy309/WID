@@ -1,0 +1,45 @@
+<html>
+<head>
+	<title>JavaScript4</title>
+	<style type="text/css">
+
+	</style>
+	</script>
+</head>
+<body>
+<script type="text/javascript">
+var myBoolean=new Boolean(true);
+document.write(myBoolean.toString(),typeof(myBoolean.toString()),"<br>");
+var boolvalue=myBoolean.valueOf();
+document.write(boolvalue+typeof(boolvalue)+"<br>");
+
+var num1=new Number(273.52233);
+document.write(num1+"<br>");
+document.write(num1.toFixed(1)+"<br>");
+document.write(num1.toExponential()+"<br>");
+
+Car=new Array();
+Car[0]="Hyundai";
+Car[1]="Nissan";
+Car[2]="Toyota";
+document.write(Car[0]+"<br>");
+document.write(Car[1]+"<br>");
+document.write(Car[2]+"<br>");
+document.write(Car.join(",")+"<br>");
+Car.sort();
+document.write(Car.join("+"));
+
+
+var now=new Date(),then=new Date();
+document.write("<br>"+now);
+then.setDate(now.getDate()+2);
+then.setHours(now.getHours()+13);
+then.setMinutes(now.getMinutes()+24)
+document.write("<br>"+then);
+document.write("<br>"+now.getDay());
+
+var num1=-3;
+document.write("<br>"+Math.abs(num1));
+</script>
+</body>
+</html>
