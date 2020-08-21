@@ -1,0 +1,5 @@
+apple	0
+movie	1
+movie.	2
+Movie.	3
+movie	4
