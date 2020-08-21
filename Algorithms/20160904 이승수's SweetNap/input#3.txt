@@ -1,0 +1,5 @@
+4
+10:00 12:00 network lecture
+12:00 13:00 lunch time
+14:30 16:00 specking practice
+17:00 17:30 dinner time
