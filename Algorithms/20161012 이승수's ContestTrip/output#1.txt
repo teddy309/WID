@@ -1,2 +1,0 @@
-Departure      0949   Seoul
-Arrival        1411   Daejeon

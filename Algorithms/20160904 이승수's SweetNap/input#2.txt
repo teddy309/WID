@@ -1,6 +1,0 @@
-5
-10:00 11:30 data structure
-13:00 14:00 group study
-14:00 14:30 break time
-15:00 16:00 group study2
-17:00 18:00 health training
