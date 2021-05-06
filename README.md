@@ -1,9 +1,5 @@
 # WID
-Archieve for What I Did in Gachon Univ. Lectures: <br>
-  1. Homework Projects & Labs code.<br>
-  2. Homework&Research Reports. <br>
-  3. 2020 Spring Monash/La Trobe Univ. Big Data Course Individual&Group Assignments.
-<br><br>
-TODO: <br>
--code: C-Programming, JAVA(OOP), Arduino/robotC(Robotics)<br>
--report: OS, ComputerNetwork, CloudComputing, ComputerStructure
+This repository is individual projects archieve for 'What I Did' daily. <br>
+
+List of WID:<br>
+- 
